@@ -17,7 +17,7 @@ namespace COMServer
     public partial class Form1 : Form
     {
         protected bool isInTimerFun = false;//是否正处在timer的事件中;
-        string ReceiveData = "";//COM2接收到的数据
+        string ReceiveData = "";//COM2接收到的数据,
         string ReceiveData1 = "";//COM5接收到的数据
         string [] contr_order=new string[15];//控制指令
         string stepdelay = " 02 ";//步进延时
